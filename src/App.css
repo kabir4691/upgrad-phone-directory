@@ -1,0 +1,24 @@
+.content-container {
+  padding: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+}
+
+.button-add {
+  background: #7ab97a;
+  color: white;
+}
+
+.heading-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  margin: 20px 0;
+}
+
+.heading-item {
+  font-weight: bold;
+  color: grey;
+}
