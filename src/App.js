@@ -17,7 +17,7 @@ function App() {
   ]
   return (
     <div>
-      <Header />
+      <Header heading="PHONE DIRECTORY"/>
       <div className="content-container">
         <button className="button button-add">ADD</button>
         <div className="heading-container">
