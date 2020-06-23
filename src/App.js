@@ -3,6 +3,18 @@ import Header from './Header';
 import './App.css'
 
 function App() {
+  const subscribers = [
+    { 
+      id: 1,
+      name: 'Kabir',
+      mobile: 9876543210
+    },
+    { 
+      id: 2,
+      name: 'Nazir',
+      mobile: 9012345678
+    }
+  ]
   return (
     <div>
       <Header />
@@ -12,6 +24,14 @@ function App() {
           <span className="heading-item">NAME</span>
           <span className="heading-item">PHONE</span>
         </div>
+        {subscribers.map(item => {
+          return (
+            <div className="row-container" key={item.id}>
+              <span className="row-item">{item.name}</span>
+              <span className="row-item">{item.mobile}</span>
+            </div>
+          )
+        })}
       </div>
     </div>
   );

@@ -22,3 +22,14 @@
   font-weight: bold;
   color: grey;
 }
+
+.row-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  margin: 10px 0;
+}
+
+.row-item {
+  color: black;
+  padding-right: 5px;
+}
