@@ -29,6 +29,7 @@ function App() {
             <div className="row-container" key={item.id}>
               <span className="row-item">{item.name}</span>
               <span className="row-item">{item.mobile}</span>
+              <button className="button button-delete">DELETE</button>
             </div>
           )
         })}

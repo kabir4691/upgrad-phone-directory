@@ -5,11 +5,15 @@
 .button {
   padding: 10px 20px;
   border: none;
+  color: white;
 }
 
 .button-add {
   background: #7ab97a;
-  color: white;
+}
+
+.button-delete {
+  background: #fa9c9c;
 }
 
 .heading-container {
@@ -25,8 +29,9 @@
 
 .row-container {
   display: grid;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 40% 40% 20%;
   margin: 10px 0;
+  align-items: center;
 }
 
 .row-item {
