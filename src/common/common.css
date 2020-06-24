@@ -1,0 +1,18 @@
+.content-container {
+  padding: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button-add {
+  background: #7ab97a;
+}
+
+.button-delete {
+  background: #fa9c9c;
+}
