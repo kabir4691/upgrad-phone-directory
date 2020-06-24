@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import './ShowSubscribers.css'
+import { Link } from 'react-router-dom';
 
 export default class extends React.Component {
  
@@ -9,7 +10,9 @@ export default class extends React.Component {
       <div>
         <Header heading="PHONE DIRECTORY"/>
         <div className="content-container">
-          <button className="button button-add">ADD</button>
+          <Link to='/addSubscriber'>
+            <button className="button button-add">ADD</button>
+          </Link>
           <div className="heading-container">
             <span className="heading-item">NAME</span>
             <span className="heading-item">PHONE</span>
