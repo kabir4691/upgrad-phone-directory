@@ -31,7 +31,7 @@ export default class extends React.Component {
         <Header heading='Add Subscriber'/>
         <div className='content-container'>
           <Link to='/'>
-            <button className='button'>Back</button>
+            <button className='button button-back'>Back</button>
           </Link>
           <form className='subscriber-form' onSubmit={this.onFormSubmitted}>
             <label htmlFor='name' className='label-control'>Name: </label>

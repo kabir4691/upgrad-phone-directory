@@ -18,12 +18,12 @@
   box-sizing: border-box;
   font-size: 0.9rem;
   outline: none;
+  margin: 10px 0;
 }
 
 .subscriber-info-container {
   font-size: 1rem;
-  margin-right: 10px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .subscriber-to-add-heading {
