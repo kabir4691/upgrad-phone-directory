@@ -4,6 +4,10 @@ import './ShowSubscribers.css'
 import { Link } from 'react-router-dom';
 
 export default class extends React.Component {
+
+  onDeleteClick = (subscriberId) => {
+    this.props.deleteSubscriberHandler(subscriberId);
+  }
  
   render() {
     return (
@@ -22,7 +26,7 @@ export default class extends React.Component {
               <div className="row-container" key={item.id}>
                 <span className="row-item">{item.name}</span>
                 <span className="row-item">{item.phone}</span>
-                <button className="button button-delete">DELETE</button>
+                <button className="button button-delete" onClick={this.onDeleteClick.bind(this, item.id)}>DELETE</button>
               </div>
             )
           })}
